@@ -5,7 +5,7 @@ var animateMe = function(targetElement, speed, leftPos, opacity){
     $(targetElement).css({top:"100%"})
     $(targetElement).animate(
         {
-        'top': -$(document).height() + 2000,
+        'top': -$(document).height(),
         'opacity': 0
         }, 
         { 
