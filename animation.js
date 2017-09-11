@@ -20,4 +20,4 @@ var animateMe = function(targetElement, speed, leftPos, topPos, opacity){
 };
 animateMe($('#object1'), 4000, 200, 500, 1);
 animateMe($('#object2'), 3000, 200, 500, 1);
-alert("hi");
+alert("test!");
