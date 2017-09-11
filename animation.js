@@ -19,7 +19,18 @@ var animateMe = function(targetElement, speed, leftPos, topPos, opacity){
     
 };
 $(function(){
-	animateMe($('#object1'), 4000, 200, 500, 1);
-	animateMe($('#object2'), 3000, 200, 500, 1);
-	alert("test!");
+	animateMe($('#object1'), 1000, Math.random() * $(document).width()
+, 500, 1);
+	animateMe($('#object2'), 1000, Math.random() * $(document).width()
+, 500, 1);
+	animateMe($('#object3'), 1000, Math.random() * $(document).width()
+, 500, 1);
+	animateMe($('#object4'), 1000, Math.random() * $(document).width()
+, 500, 1);
+	animateMe($('#object5'), 1000, Math.random() * $(document).width()
+, 500, 1);
+	animateMe($('#object6'), 1000, Math.random() * $(document).width()
+, 500, 1);
+	animateMe($('#object7'), 1000, Math.random() * $(document).width()
+, 500, 1);
 });
