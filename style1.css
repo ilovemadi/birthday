@@ -20,12 +20,13 @@ width: 10px
 }
 #head{
 position: absolute;
-top: 66px;
+top: 31px;
 left: 66px;
 }
 #button{
 position: absolute;
-top: 99px;
+font-family: "courier";
+top: 200px;
 left: 777px;
 }
 #img{
