@@ -1,4 +1,10 @@
-#object1{ 
+#object1,
+#object2,
+#object3,
+#object4,
+#object5,
+#object6,
+#object7{ 
 position: absolute; 
 left: 100%; 
 top: 500px; 
