@@ -5,7 +5,7 @@ var animateMe = function(targetElement, speed, leftPos, topPos, opacity){
     $(targetElement).css({opacity:opacity})
     $(targetElement).animate(
         {
-        'top': -$(document).width() + 1000,
+        'top': -$(document).width() + 1500,
         'opacity': "0%"
         }, 
         { 
@@ -19,18 +19,18 @@ var animateMe = function(targetElement, speed, leftPos, topPos, opacity){
     
 };
 $(function(){
-	animateMe($('#object1'), 8000, Math.random() * $(document).width()
+	animateMe($('#object1'), 5000, Math.random() * $(document).width()
 , 500, 1);
-	animateMe($('#object2'), 8000, Math.random() * $(document).width()
+	animateMe($('#object2'), 7000, Math.random() * $(document).width()
 , 500, 1);
-	animateMe($('#object3'), 8000, Math.random() * $(document).width()
+	animateMe($('#object3'), 4000, Math.random() * $(document).width()
 , 500, 1);
 	animateMe($('#object4'), 8000, Math.random() * $(document).width()
 , 500, 1);
-	animateMe($('#object5'), 8000, Math.random() * $(document).width()
+	animateMe($('#object5'), 6000, Math.random() * $(document).width()
 , 500, 1);
-	animateMe($('#object6'), 8000, Math.random() * $(document).width()
+	animateMe($('#object6'), 7000, Math.random() * $(document).width()
 , 500, 1);
-	animateMe($('#object7'), 8000, Math.random() * $(document).width()
+	animateMe($('#object7'), 6500, Math.random() * $(document).width()
 , 500, 1);
 });
