@@ -33,4 +33,12 @@ $(function(){
 , 1);
 	animateMe($('#object7'), 6500, Math.random() * $(document).width()
 , 1);
+	animateMe($('#object8'), 3500, Math.random() * $(document).width()
+, 1);
+	animateMe($('#object9'), 5500, Math.random() * $(document).width()
+, 1);
+	animateMe($('#object10'), 9000, Math.random() * $(document).width()
+, 1);
+	animateMe($('#object11'), 7500, Math.random() * $(document).width()
+, 1);
 });
