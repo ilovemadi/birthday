@@ -19,18 +19,18 @@ var animateMe = function(targetElement, speed, leftPos, topPos, opacity){
     
 };
 $(function(){
-	animateMe($('#object1'), 1000, Math.random() * $(document).width()
+	animateMe($('#object1'), 8000, Math.random() * $(document).width()
 , 500, 1);
-	animateMe($('#object2'), 1000, Math.random() * $(document).width()
+	animateMe($('#object2'), 8000, Math.random() * $(document).width()
 , 500, 1);
-	animateMe($('#object3'), 1000, Math.random() * $(document).width()
+	animateMe($('#object3'), 8000, Math.random() * $(document).width()
 , 500, 1);
-	animateMe($('#object4'), 1000, Math.random() * $(document).width()
+	animateMe($('#object4'), 8000, Math.random() * $(document).width()
 , 500, 1);
-	animateMe($('#object5'), 1000, Math.random() * $(document).width()
+	animateMe($('#object5'), 8000, Math.random() * $(document).width()
 , 500, 1);
-	animateMe($('#object6'), 1000, Math.random() * $(document).width()
+	animateMe($('#object6'), 8000, Math.random() * $(document).width()
 , 500, 1);
-	animateMe($('#object7'), 1000, Math.random() * $(document).width()
+	animateMe($('#object7'), 8000, Math.random() * $(document).width()
 , 500, 1);
 });
