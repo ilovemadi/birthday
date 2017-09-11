@@ -11,13 +11,15 @@ var animateMe = function(targetElement, speed, leftPos, topPos, opacity){
         { 
         duration: speed, 
         complete: function(){
-        		leftPos = Math.random() * $(document).width();
+            leftPos = Math.random() * $(document).width();
             animateMe(this, speed, leftPos, topPos, 1);
             }
         }
     );
     
 };
-animateMe($('#object1'), 4000, 200, 500, 1);
-animateMe($('#object2'), 3000, 200, 500, 1);
-alert("test!");
+$(function(){
+	animateMe($('#object1'), 4000, 200, 500, 1);
+	animateMe($('#object2'), 3000, 200, 500, 1);
+	alert("test!");
+});
