@@ -29,14 +29,14 @@
       
       font-family: courier;
       color:#ffe0e0;
-      font-size:20px;
-      font-weight: bold;
+      font-size:16px;
     }
     
     #image{
       height: 318px;
       width: 302px;
-      margin-left: 151px;
+      margin-left: -151px;
+      left: 50%;
     }
 
     @-webkit-keyframes colorchange {
