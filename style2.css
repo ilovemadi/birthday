@@ -5,8 +5,10 @@
     }
 
     .profile {
+      position: absolute;
       margin-top: 2cm;
-      left: 50%;
+      margin-left: -151px;
+
       height: 318px;
       width: 302px;
     }
@@ -20,7 +22,7 @@
       margin-top: 5cm;
       text-align: center;
 
-      color:#fff000;
+      color:#ffe0e0;
       font-size:12px;
       font-weight: bold;
       position: absolute;
