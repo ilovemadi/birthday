@@ -33,7 +33,7 @@
     #second{
       z-index: 2;
       margin-top: 40px;
-      height: 405px;
+      height: 390px;
     }
 
     #third{
@@ -47,7 +47,8 @@
 
     #fourth{
       z-index: 4;
-     text-align: center;
+      text-align: center;
+      margin-top: 10px;
 
       font-family: futura;
       font-size: 20px;
