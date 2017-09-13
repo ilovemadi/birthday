@@ -1,57 +1,42 @@
     body {
       background-color: #000000;
     }
-
-    .center {
-      
+    
+    .wrapper {
       margin: 0 auto;
-      
     }
-
-    #image {
-      position: absolute;
-      margin-top: 2cm;
-      margin-left: -151px;
-      left: 50%;
-      height: 318px;
-      width: 302px;
-      float: left;
-    }
-
-    #caption {
-      font-family: courier;
-
-      width:100%;
-
-      margin: 0 auto;
-      margin-top: 6cm;
+    
+    #first{
+      z-index: 1;
       text-align: center;
-
-      color:#ffe0e0;
-      font-size:20px;
-      font-weight: bold;
-      position: absolute;
-      float: left;
-      clear: left;
-    }
-
-    .welcome {
       
       font-family: futura;
       font-style: italic;
-      
-      width:100%;
-      
-      margin: 0 auto;
-      text-align: center;
-      
       color:#313131;
       font-size:45px;
       font-weight: bold;
-      position: absolute;
       -webkit-animation:colorchange 20s infinite alternate;
+
+    }
+
+    #second{
+      z-index: 2;
+    }
+
+    #third{
+      z-index: 3;
+      text-align: center;
       
-      
+      font-family: courier;
+      color:#ffe0e0;
+      font-size:20px;
+      font-weight: bold;
+    }
+    
+    #image{
+      height: 318px;
+      width: 302px;
+      margin-left: 151px;
     }
 
     @-webkit-keyframes colorchange {
