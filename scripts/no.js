@@ -1,5 +1,6 @@
 $(document).ready(function(){
-    animateDiv();  
+    animateDiv();
+    
 });
 
 function makeNewPosition(){
@@ -17,7 +18,26 @@ function makeNewPosition(){
 
 function animateDiv(){
     var newq = makeNewPosition();
-    $('.no').animate({ top: newq[0], left: newq[1] }, 4500, function(){
+    var oldq = $('.no').offset();
+    var speed = calcSpeed([oldq.top, oldq.left], newq);
+    
+    $('.no').animate({ top: newq[0], left: newq[1] }, speed, function(){
       animateDiv();        
     });
+    
 };
+
+function calcSpeed(prev, next) {
+    
+    var x = Math.abs(prev[1] - next[1]);
+    var y = Math.abs(prev[0] - next[0]);
+    
+    var greatest = x > y ? x : y;
+    
+    var speedModifier = 0.1;
+
+    var speed = Math.ceil(greatest/speedModifier);
+
+    return speed;
+
+}
