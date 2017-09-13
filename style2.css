@@ -1,5 +1,5 @@
     body {
-      background-color: #ffffff;
+      background-color: #000000;
     }
 
     .center {
@@ -23,7 +23,7 @@
       width:100%;
 
       margin: 0 auto;
-      margin-top: 5cm;
+      margin-top: 6cm;
       text-align: center;
 
       color:#ffe0e0;
