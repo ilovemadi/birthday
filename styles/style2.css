@@ -5,6 +5,13 @@
     .wrapper {
       margin: 0 auto;
     }
+
+    .no {
+      width: 50px;
+      height:50px;
+      background-color:rgba(255, 255, 255, 0.4);;
+      position:fixed;
+    }
     
     #first{
       z-index: 1;
