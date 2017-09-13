@@ -34,9 +34,11 @@
 
     #fourth{
       z-index: 4;
+      text-align: center;
+
       font-family: futura;
       font-size: 20px;
-      color: #ffffff;
+      color: #00ffff;
     }
     
     #image{
@@ -44,6 +46,7 @@
       width: 302px;
       margin-left: -151px;
       left: 50%;
+      position: fixed;
     }
 
     @-webkit-keyframes colorchange {
