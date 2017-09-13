@@ -31,6 +31,13 @@
       color:#ffe0e0;
       font-size:16px;
     }
+
+    #fourth{
+      z-index: 4;
+      font-family: futura;
+      font-size: 20px;
+      color: #ffffff;
+    }
     
     #image{
       height: 318px;
