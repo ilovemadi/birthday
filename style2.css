@@ -1,3 +1,7 @@
+    body {
+      background-color: #ffffff;
+    }
+
     .center {
       
       margin: 0 auto;
@@ -8,7 +12,7 @@
       position: absolute;
       margin-top: 2cm;
       margin-left: -151px;
-
+      left: 50%;
       height: 318px;
       width: 302px;
     }
@@ -23,7 +27,7 @@
       text-align: center;
 
       color:#ffe0e0;
-      font-size:12px;
+      font-size:20px;
       font-weight: bold;
       position: absolute;
 
