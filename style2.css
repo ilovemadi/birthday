@@ -6,8 +6,25 @@
 
     .profile {
       margin-top: 2cm;
+      left: 50%;
       height: 318px;
       width: 302px;
+    }
+
+    .desc {
+      font-family: courier;
+
+      width:100%;
+
+      margin: 0 auto;
+      margin-top: 5cm;
+      text-align: center;
+
+      color:#fff000;
+      font-size:12px;
+      font-weight: bold;
+      position: absolute;
+
     }
 
     .welcome {
