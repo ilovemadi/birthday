@@ -8,16 +8,17 @@
       
     }
 
-    .profile {
+    #image {
       position: absolute;
       margin-top: 2cm;
       margin-left: -151px;
       left: 50%;
       height: 318px;
       width: 302px;
+      float: left;
     }
 
-    .desc {
+    #caption {
       font-family: courier;
 
       width:100%;
@@ -30,7 +31,8 @@
       font-size:20px;
       font-weight: bold;
       position: absolute;
-
+      float: left;
+      clear: left;
     }
 
     .welcome {
